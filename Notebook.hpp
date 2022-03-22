@@ -1,3 +1,4 @@
+#include "Direction.hpp"
 #include <string>
 
 using ariel::Direction;
