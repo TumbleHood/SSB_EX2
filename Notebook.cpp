@@ -9,7 +9,7 @@ using namespace std;
 Notebook::Notebook(){
 }
 
-void Notebook::write(unsigned int page, unsigned int row, unsigned int column, Direction direction, string text){
+void Notebook::write(unsigned int page, unsigned int row, unsigned int column, Direction direction, const string& text){
 }
 
 string Notebook::read(unsigned int page, unsigned int row, unsigned int column, Direction direction, unsigned int length){
@@ -19,5 +19,5 @@ string Notebook::read(unsigned int page, unsigned int row, unsigned int column, 
 void Notebook::erase(unsigned int page, unsigned int row, unsigned int column, Direction direction, unsigned int length){
 }
 
-void Notebook::show(unsigned int length){
+void Notebook::show(unsigned int page){
 }
