@@ -9,15 +9,15 @@ using namespace std;
 Notebook::Notebook(){
 }
 
-void Notebook::write(unsigned int page, unsigned int row, unsigned int column, Direction direction, const string& text){
+void Notebook::write(int page, int row, int column, Direction direction, const string& text){
 }
 
-string Notebook::read(unsigned int page, unsigned int row, unsigned int column, Direction direction, unsigned int length){
+string Notebook::read(int page, int row, int column, Direction direction, int length){
     return "";
 }
 
-void Notebook::erase(unsigned int page, unsigned int row, unsigned int column, Direction direction, unsigned int length){
+void Notebook::erase(int page, int row, int column, Direction direction, int length){
 }
 
-void Notebook::show(unsigned int page){
+void Notebook::show(int page){
 }
