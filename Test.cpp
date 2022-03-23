@@ -47,6 +47,4 @@ TEST_CASE("Bad Input"){
 
     nb.write(0, 0, 0, h, "a");
     CHECK_THROWS(nb.write(0, 0, 0, h, "a"));
-    nb.erase(0, 0, 0, h, 1);
-    CHECK_THROWS(nb.erase(0, 0, 0, h, 1));
 }
